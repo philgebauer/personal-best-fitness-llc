@@ -9,7 +9,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controllerAs: 'home'
     })
     .when('/contact', {
-      templateUrl: '/views/contact.html',
+      templateUrl: '../public/views/contact.html',
       controller: 'contactController',
       controllerAs: 'contact'
     })
