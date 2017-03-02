@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../public/assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="../public/assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Landing Page - Material Kit by Creative Tim</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="../public/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../public/assets/css/material-kit.css" rel="stylesheet"/>
+
+</head>
+
+<body class="landing-page" ng-app ='app'>
+
+<!-- ***** NAV BAR ***** -->
+
+    <nav class="navbar navbar-transparent navbar-absolute">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="http://www.google.com">Personal Best Fitness, LLC</a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+    				<li>
+    					<a href="../components-documentation.html" target="_blank">
+    						About
+    					</a>
+    				</li>
+    				<li>
+						<a href="http://www.google.com" target="_blank">
+							Bootcamps
+						</a>
+    				</li>
+						<li>
+						<a href="http://www.google.com" target="_blank">
+							Training
+						</a>
+						</li>
+						<li>
+						<a href="http://www.google.com" target="_blank">
+						  Contact
+						</a>
+						</li>
+
+
+
+		            <li>
+		                <a href="http://www.google.com" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+		            </li>
+					<li>
+		                <a href="http://www.google.com" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-instagram"></i>
+						</a>
+		            </li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+
+<!--***** ng-include for loading other templates *****-->
+
+<main ng-view></main>
+
+
+<!--***** FOOTER *****-->
+
+	    <footer class="footer">
+	        <div class="container">
+	            <nav class="pull-left">
+	                <ul>
+	                    <li>
+	                        <a href="http://www.google.com">
+	                            Home
+	                        </a>
+	                    </li>
+						<li>
+	                        <a href="http://www.google.com">
+	                           About Me
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a href="http://www.google.com">
+	                           Contact
+	                        </a>
+	                    </li>
+	                    <li>
+	                        <a href="http://www.google.com">
+	                            Services
+	                        </a>
+	                    </li>
+	                </ul>
+	            </nav>
+	            <div class="copyright pull-right">
+	                &copy; 2016, Personal Best Fitness, LLC <i class="fa fa-heart heart"></i>
+	            </div>
+	        </div>
+	    </footer>
+
+	</div>
+</body>
+
+	<!--   Core JS Files   -->
+	<script src="../public/assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="../public/assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../public/assets/js/material.min.js"></script>
+
+
+
+	<!-- AngularJS -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="../public/assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="../public/assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="../public/assets/js/material-kit.js" type="text/javascript"></script>
+
+
+	<!-- JS Scripts -->
+	<script src="../public/scripts/client-app.js"></script>
+
+	<!-- JS Controllers -->
+	<script src="../public/controllers/home.controller.js" type="text/javascript"></script>
+
+
+
+
+</html>

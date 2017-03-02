@@ -1,0 +1,30 @@
+{
+  "name": "personal-best-fitness",
+  "version": "1.0.0",
+  "description": "Personal Website for Personal Best Fitness llc",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server/app.js",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philgebauer/personal-best-fitness-llc.git"
+  },
+  "author": "Phil Gebauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philgebauer/personal-best-fitness-llc/issues"
+  },
+  "homepage": "https://github.com/philgebauer/personal-best-fitness-llc#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "angularfire": "^2.3.0",
+    "body-parser": "^1.16.1",
+    "dotenv": "^4.0.0",
+    "firebase": "^3.6.9",
+    "firebase-admin": "^4.1.1",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11"
+  }
+}
