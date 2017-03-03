@@ -18,6 +18,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ClassesController',
       controllerAs: 'classes'
     })
+    .when('/aboutme', {
+      templateUrl: '../public/views/aboutme.html',
+      controller: 'AboutmeController',
+      controllerAs: 'about'
+    })
     .otherwise({
       redirectTo: '/homepage'
     });//End route
