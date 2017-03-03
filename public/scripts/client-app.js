@@ -10,8 +10,13 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     })
     .when('/contact', {
       templateUrl: '../public/views/contact.html',
-      controller: 'contactController',
+      controller: 'ContactController',
       controllerAs: 'contact'
+    })
+    .when('/classes', {
+      templateUrl: '../public/views/classes.html',
+      controller: 'ClassesController',
+      controllerAs: 'classes'
     })
     .otherwise({
       redirectTo: '/homepage'
