@@ -17,7 +17,7 @@
     <div id='classInfo' class="main main-raised">
       <div class="container">
           <div class="section text-center section-landing">
-    <table class="table edit">
+    <!-- <table class="table edit">
        <thead>
        <tr>
            <th>Name</th>
@@ -53,10 +53,12 @@
            </div>
            <button type="submit" class="btn btn-default">Add</button>
        </form>
-   </div>
+   </div> -->
 
-   <pre>
-     {{ admin.object | json }}
+<input ng-model ="admin.object.dob" ng-change='admin.saveProfile()'>
+
+    {{ admin.object.dob | json }}
+  </input>
 
  </div>
  </div>
