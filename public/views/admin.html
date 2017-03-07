@@ -1,0 +1,63 @@
+<div class="wrapper">
+    <div class="header header-filter" style="background-image: url('../public/assets/img/IMG_6522.JPG'); height: 700px;">
+        <div class="container">
+            <div class="row">
+      <div class="col-md-6">
+        <h1 class="title">Time to workout.</h1>
+                  <h4>My personal training sessions include both<br>  1:1 and small group sessions – it’s up to you! </h4>
+                  <br />
+                  <a href="#classes#classInfo" class="btn btn-danger btn-raised btn-lg">
+          <i class="fa fa-play"></i> Training options
+        </a>
+      </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='classInfo' class="main main-raised">
+      <div class="container">
+          <div class="section text-center section-landing">
+    <table class="table edit">
+       <thead>
+       <tr>
+           <th>Name</th>
+           <th>Description</th>
+           <th>Count</th>
+           <th></th>
+       </tr>
+       </thead>
+       <tbody>
+       <tr ng-repeat="(id, item) in items">
+           <td><input type="text" ng-model="item.name" ng-blur="updateItem(id)"/></td>
+           <td><input type="text" ng-model="item.description" ng-blur="updateItem(id)"/></td>
+           <td><input type="text" ng-model="item.count" ng-blur="updateItem(id)"/></td>
+           <td>
+               <a href="#" ng-click="removeItem(id)" class="navbar-link">Remove</a>
+           </td>
+       </tr>
+       </tbody>
+   </table>
+
+   <div class="well">
+       <h4>Add Item</h4>
+
+       <form class="form-inline" role="form" novalidate ng-submit="addItem()">
+           <div class="form-group">
+               <input type="text" class="form-control" ng-model="newItem.name" placeholder="Name">
+           </div>
+           <div class="form-group">
+               <input type="text" class="form-control" ng-model="newItem.description" placeholder="Description">
+           </div>
+           <div class="form-group">
+               <input type="text" class="form-control" ng-model="newItem.count" placeholder="Count">
+           </div>
+           <button type="submit" class="btn btn-default">Add</button>
+       </form>
+   </div>
+
+   <pre>
+     {{ admin.object | json }}
+
+ </div>
+ </div>
+ </div>

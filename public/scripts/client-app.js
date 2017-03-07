@@ -1,5 +1,7 @@
 var app = angular.module('app', ['ngRoute', 'firebase']);
 
+app.constant('FIREBASE_URI', 'https://personalbestfitness-76fa4.firebaseio.com');
+
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
@@ -22,6 +24,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       templateUrl: '../public/views/aboutme.html',
       controller: 'AboutmeController',
       controllerAs: 'about'
+    })
+    .when('/admin', {
+      templateUrl: '../public/views/admin.html',
+      controller: 'AdminController',
+      controllerAs: 'admin'
     })
     .otherwise({
       redirectTo: '/homepage'
