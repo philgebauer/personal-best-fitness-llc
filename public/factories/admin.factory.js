@@ -1,29 +1,24 @@
-app.factory('AdminFactory', ['$firebase', function ($firebase) {
+app.factory('AdminFactory', ['$firebase', '$firebaseObject',  function ($firebase, $firebaseObject) {
+  console.log('Admin Factory running!');
 
-  // var ref = new Firebase(FIREBASE_URI);
-  // var items = $firebase(ref);
-  //
-  // var getItems = function () {
-  //   return items;
-  // };
-  //
-  // var addItem = function (item) {
-  //   items.$add(items)
-  // };
-  //
-  // var updateItem = function (item) {
-  //   items.$save(id)
-  // };
-  //
-  // var removeItem = function (item) {
-  //   items.$remove(id);
-  // };
-  //
-  // return {
-  //   getItems: getItems,
-  //   addItem: addItem,
-  //   updateItem: updateItem,
-  //   removeItem: removeItem
-  // };
+  var self = this;
+
+
+
+
+
+  var one = function () {
+    return this.monday;
+}
+
+var publicAPI = function () {
+
+  return
+    one: one
+
+  };
+
+return publicAPI;
+
 
 }])
