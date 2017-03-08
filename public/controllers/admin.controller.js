@@ -30,13 +30,13 @@
 
 app.controller('AdminController', function($firebaseObject){
         const rootRef = firebase.database().ref().child('angular');
-        const ref = rootRef.child('object');
-        this.object = $firebaseObject(ref);
-        console.log(this.object);
+        const ref = rootRef.child('monday');
+        this.monday = $firebaseObject(ref);
+        console.log(this.monday);
 
 
         this.saveProfile = function() {
-          this.object.$save()
+          this.monday.$save()
         };
     });
 
