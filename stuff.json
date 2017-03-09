@@ -2,64 +2,71 @@
   "angular": {
      "monday": {
         "title": "Monday's Title",
+        "on": true,
         "date": "November 7, 1867",
         "length": "Monday's Title",
         "time1": "8:15 AM",
-        "time2": "10:15 AM",
+        "location" : "The gym",
         "Description": "Monday's bootcamp description goes here"
 
      },
      "tuesday": {
         "title": "Tuesday's Title",
+        "on": true,
         "date": "November 7, 1867",
         "length": "Tuesday's Title",
         "time1": "8:15 AM",
-        "time2": "10:15 AM",
+        "location" : "The gym",
         "Description": "Tuesday's bootcamp description goes here"
      },
 
        "wednesday": {
           "title": "Wednesday's Title",
+          "on": true,
           "date": "November 7, 1867",
           "length": "TWednesday's Title",
           "time1": "8:15 AM",
-          "time2": "10:15 AM",
+          "location" : "The gym",
           "Description": "Wednesdays's bootcamp description goes here"
      },
 
        "thursday": {
           "title": "Thursday's Title",
+          "on": true,
           "date": "November 7, 1867",
           "length": "Thursdays's Title",
           "time1": "8:15 AM",
-          "time2": "10:15 AM",
+          "location" : "The gym",
           "Description": "Thursday's bootcamp description goes here"
      },
 
        "friday": {
           "title": "Friday's Title",
+          "on": true,
           "date": "November 7, 1867",
           "length": "Fridays's Title",
           "time1": "8:15 AM",
-          "time2": "10:15 AM",
+          "location" : "The gym",
           "Description": "Friday's bootcamp description goes here"
      },
 
        "saturday": {
           "title": "Saturday's Title",
+          "on": true,
           "date": "November 7, 1867",
           "length": "Saturday's Title",
           "time1": "8:15 AM",
-          "time2": "10:15 AM",
+          "location" : "The gym",
           "Description": "Saturdays's bootcamp description goes here"
      },
-     
+
        "sunday": {
           "title": "Sunday's Title",
+          "on": true,
           "date": "November 7, 1867",
           "length": "Sunday's Title",
           "time1": "8:15 AM",
-          "time2": "10:15 AM",
+          "location" : "The gym",
           "Description": "Sunday's bootcamp description goes here"
      }
   }

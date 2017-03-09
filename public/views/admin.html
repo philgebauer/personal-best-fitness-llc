@@ -16,14 +16,14 @@
     <div id='classInfo' class="main main-raised">
         <div class="container">
             <div class="section text-center section-landing">
-              Keep HTML: <input type="checkbox" ng-model="admin.monday.On" ng-change='admin.saveProfile()'>
+              Keep HTML: <input type="checkbox" ng-model="admin.monday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Monday</h2>
-                <div class="btn-group text-center title" role="group">
+                <!-- <div class="btn-group text-center title" role="group">
                   <button type="button"  class="btn btn-default">Show</button>
                   <button type="button" class="btn btn-default">Hide</button>
                   <button type="button" class="btn btn-default">Clear</button>
-                </div>
-                <div class= "monday" ng-if="admin.monday.On">
+                </div> -->
+                <div class= "monday" ng-if="admin.monday.on">
                    <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
@@ -42,12 +42,14 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
-                <input placeholder="{{admin.monday.Description}}" ng-model="admin.monday.Description" ng-change='admin.saveProfile()'>
+                <!-- <input placeholder="{{admin.monday.Description}}" ng-model="admin.monday.Description" ng-change='admin.saveProfile()'> -->
                 <!-- {{ admin.monday.Description | json }} -->
                 </input>
               </div>
+              Keep HTML: <input type="checkbox" ng-model="admin.tuesday.on" ng-change='admin.saveProfile()'>
 
                 <h2 class="text-center title">Tuesday</h2>
+                <div class= "tuesday" ng-if="admin.tuesday.on">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
@@ -66,8 +68,13 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
+              </div>
+
+
+                Keep HTML: <input type="checkbox" ng-model="admin.wednesday.on" ng-change='admin.saveProfile()'>
 
                 <h2 class="text-center title">Wednesday</h2>
+                <div class= "wednesday" ng-if="admin.wednesday.on">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
@@ -86,8 +93,12 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
+              </div>
 
+
+                Keep HTML: <input type="checkbox" ng-model="admin.thursday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Thursday</h2>
+                <div class= "thursday" ng-if="admin.thursday.on">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
@@ -106,8 +117,12 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
+              </div>
 
+
+                Keep HTML: <input type="checkbox" ng-model="admin.friday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Friday</h2>
+                <div class= "friday" ng-if="admin.friday.on">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
@@ -126,8 +141,12 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
+              </div>
 
+
+                Keep HTML: <input type="checkbox" ng-model="admin.saturday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Saturday</h2>
+                <div class= "saturday" ng-if="admin.saturday.on">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
@@ -146,8 +165,12 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
+              </div>
 
+
+                Keep HTML: <input type="checkbox" ng-model="admin.sunday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Sunday</h2>
+                <div class= "sunday" ng-if="admin.sunday.on">
 
                 <div class="row">
                     <div class="col-md-6">
@@ -167,6 +190,7 @@
                     <label class="control-label">Your Message</label>
                     <textarea name="message" class="form-control" rows="4"></textarea>
                 </div>
+              </div>
             </div>
         </div>
     </div>
