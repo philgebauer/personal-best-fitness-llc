@@ -18,56 +18,87 @@
             <div class="section text-center section-landing">
               Keep HTML: <input type="checkbox" ng-model="admin.monday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Monday</h2>
-                <!-- <div class="btn-group text-center title" role="group">
-                  <button type="button"  class="btn btn-default">Show</button>
-                  <button type="button" class="btn btn-default">Hide</button>
-                  <button type="button" class="btn btn-default">Clear</button>
-                </div> -->
                 <div class= "monday" ng-if="admin.monday.on">
                    <div class="row">
                     <div class="col-md-6">
                         <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
+                            <label class="control-label">Title</label>
+                            <input ng-model="admin.monday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
+
+                          </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
+                            <label class="control-label">Date</label>
+                            <input name="subject" ng-model="admin.monday.date" ng-change='admin.saveProfile()' class="form-control">
+
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                 <div class="col-md-6">
+                     <div class="form-group label-floating">
+                         <label class="control-label">Time</label>
+                         <input name="email" ng-model="admin.monday.time1" ng-change='admin.saveProfile()' class="form-control">
+
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="form-group label-floating">
+                         <label class="control-label">Location</label>
+                         <input name="subject" ng-model="admin.monday.location" ng-change='admin.saveProfile()' class="form-control">
+
+                     </div>
+                 </div>
+             </div>
                 <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
+                    <label class="control-label">Description</label>
+                    <textarea name="message" ng-model="admin.monday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
                 </div>
                 <!-- <input placeholder="{{admin.monday.Description}}" ng-model="admin.monday.Description" ng-change='admin.saveProfile()'> -->
                 <!-- {{ admin.monday.Description | json }} -->
-                </input>
+                <!-- </input> -->
               </div>
               Keep HTML: <input type="checkbox" ng-model="admin.tuesday.on" ng-change='admin.saveProfile()'>
 
                 <h2 class="text-center title">Tuesday</h2>
                 <div class= "tuesday" ng-if="admin.tuesday.on">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
-                        </div>
+                  <div class="row">
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Title</label>
+                           <input ng-model="admin.tuesday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
+
+                         </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Date</label>
+                           <input name="subject" ng-model="admin.tuesday.date" ng-change='admin.saveProfile()' class="form-control">
+
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Time</label>
+                        <input name="email" ng-model="admin.tuesday.time1" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
                 </div>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Location</label>
+                        <input name="subject" ng-model="admin.tuesday.location" ng-change='admin.saveProfile()' class="form-control">
+
+                    </div>
                 </div>
+            </div>
+               <div class="form-group label-floating">
+                   <label class="control-label">Description</label>
+                   <textarea name="message" ng-model="admin.tuesday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
+               </div>
               </div>
 
 
@@ -75,121 +106,210 @@
 
                 <h2 class="text-center title">Wednesday</h2>
                 <div class= "wednesday" ng-if="admin.wednesday.on">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
-                        </div>
+                  <div class="row">
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Title</label>
+                           <input ng-model="admin.wednesday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
+
+                         </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Date</label>
+                           <input name="subject" ng-model="admin.wednesday.date" ng-change='admin.saveProfile()' class="form-control">
+
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Time</label>
+                        <input name="email" ng-model="admin.wednesday.time1" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
                 </div>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Location</label>
+                        <input name="subject" ng-model="admin.wednesday.location" ng-change='admin.saveProfile()' class="form-control">
+
+                    </div>
                 </div>
+            </div>
+               <div class="form-group label-floating">
+                   <label class="control-label">Description</label>
+                   <textarea name="message" ng-model="admin.wednesday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
+               </div>
               </div>
 
 
                 Keep HTML: <input type="checkbox" ng-model="admin.thursday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Thursday</h2>
                 <div class= "thursday" ng-if="admin.thursday.on">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
-                        </div>
+                  <div class="row">
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Title</label>
+                           <input ng-model="admin.thursday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
+
+                         </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Date</label>
+                           <input name="subject" ng-model="admin.thursday.date" ng-change='admin.saveProfile()' class="form-control">
+
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Time</label>
+                        <input name="email" ng-model="admin.thursday.time1" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
                 </div>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Location</label>
+                        <input name="subject" ng-model="admin.thursday.location" ng-change='admin.saveProfile()' class="form-control">
+
+                    </div>
                 </div>
+            </div>
+               <div class="form-group label-floating">
+                   <label class="control-label">Description</label>
+                   <textarea name="message" ng-model="admin.thursday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
+               </div>
               </div>
 
 
                 Keep HTML: <input type="checkbox" ng-model="admin.friday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Friday</h2>
                 <div class= "friday" ng-if="admin.friday.on">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
-                        </div>
+                  <div class="row">
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Title</label>
+                           <input ng-model="admin.friday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
+
+                         </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Date</label>
+                           <input name="subject" ng-model="admin.friday.date" ng-change='admin.saveProfile()' class="form-control">
+
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Time</label>
+                        <input name="email" ng-model="admin.friday.time1" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
                 </div>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Location</label>
+                        <input name="subject" ng-model="admin.friday.location" ng-change='admin.saveProfile()' class="form-control">
+
+                    </div>
                 </div>
+            </div>
+               <div class="form-group label-floating">
+                   <label class="control-label">Description</label>
+                   <textarea name="message" ng-model="admin.friday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
+               </div>
               </div>
 
 
                 Keep HTML: <input type="checkbox" ng-model="admin.saturday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Saturday</h2>
                 <div class= "saturday" ng-if="admin.saturday.on">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
-                        </div>
+                  <div class="row">
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Title</label>
+                           <input ng-model="admin.saturday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
+
+                         </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Date</label>
+                           <input name="subject" ng-model="admin.saturday.date" ng-change='admin.saveProfile()' class="form-control">
+
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Time</label>
+                        <input name="email" ng-model="admin.saturday.time1" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
                 </div>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
+                <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Location</label>
+                        <input name="subject" ng-model="admin.saturday.location" ng-change='admin.saveProfile()' class="form-control">
+
+                    </div>
                 </div>
+            </div>
+               <div class="form-group label-floating">
+                   <label class="control-label">Description</label>
+                   <textarea name="message" ng-model="admin.saturday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
+               </div>
               </div>
 
 
                 Keep HTML: <input type="checkbox" ng-model="admin.sunday.on" ng-change='admin.saveProfile()'>
                 <h2 class="text-center title">Sunday</h2>
                 <div class= "sunday" ng-if="admin.sunday.on">
+                  <div class="row">
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Title</label>
+                           <input ng-model="admin.sunday.title" ng-change='admin.saveProfile()' name="email" class="form-control">
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Email</label>
-                            <input name="email" type="email" class="form-control">
-                        </div>
+                         </div>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="form-group label-floating">
+                           <label class="control-label">Date</label>
+                           <input name="subject" ng-model="admin.sunday.date" ng-change='admin.saveProfile()' class="form-control">
+
+                       </div>
+                   </div>
+                 </div>
+                 <div class="row">
+                 <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Time</label>
+                        <input name="email" ng-model="admin.sunday.time1" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
-                    <div class="col-md-6">
-                        <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input name="subject" class="form-control">
-                        </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="form-group label-floating">
+                        <label class="control-label">Location</label>
+                        <input name="subject" ng-model="admin.sunday.location" ng-change='admin.saveProfile()' class="form-control">
+
                     </div>
-                </div>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Message</label>
-                    <textarea name="message" class="form-control" rows="4"></textarea>
-                </div>
+                 </div>
+                 </div>
+                 <div class="form-group label-floating">
+                   <label class="control-label">Description</label>
+                   <textarea name="message" ng-model="admin.sunday.Description" ng-change='admin.saveProfile()' class="form-control" rows="4">{{admin.monday.Description}}</textarea>
+                 </div>
               </div>
             </div>
         </div>
