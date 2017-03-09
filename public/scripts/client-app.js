@@ -29,6 +29,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'AdminController',
       controllerAs: 'admin'
     })
+    .when('/bootcamp', {
+      templateUrl: '../public/views/bootcamp.html',
+      controller: 'BootcampController',
+      controllerAs: 'bootcamp'
+    })
     .otherwise({
       redirectTo: '/homepage'
     });//End route
