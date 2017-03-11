@@ -17,7 +17,7 @@
 /* ANIMATION */
 /* SHADOWS */
 /* Shadows (from mdl http://www.getmdl.io/) */
-/*body {
+body {
   background-color: #CCCCCC;
 }
 body.inverse {
@@ -54,7 +54,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 }
 
 /*           Animations              */
-/*.animation-transition-general, .carousel .carousel-indicators li {
+.animation-transition-general, .carousel .carousel-indicators li {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
   -o-transition: all 300ms linear;

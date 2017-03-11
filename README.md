@@ -1,5 +1,7 @@
 # Personal Best Fitness
 
-## Technology 
+## Technology
 
 ## Getting Started
+
+## About
