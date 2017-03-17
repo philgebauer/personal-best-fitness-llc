@@ -20,41 +20,56 @@
   <div class="container">
       <div class="section text-center section-landing">
               <div class="row">
+                <!-- <div style="position: absolute; height: 500px;"> -->
                   <!--Monday Bootcamp -->
-                  <div class="col-md-4 " ng-if="bootcamp.monday.on">
+                  <div class="col-md-6 set-height" ng-if="bootcamp.monday.on" >
                       <img src="{{bootcamp.monday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                      <h2 class="title">{{bootcamp.monday.title}}</h2>
-                      <h5 class="description">{{bootcamp.monday.Description}}</h5>
+                      <h2 class="title">{{bootcamp.monday.title | characters:50}}</h2>
+                      <h3 class="description">{{bootcamp.monday.date}} at <br> {{bootcamp.monday.time1}}</h2>
+
+                      <h5 class="description">{{bootcamp.monday.Description | characters:100}}</h5>
+                      <div class='text-center'>
+                      <button type="submit" class="btn btn-raised " layout-align="space-around center" > Learn More </button>
+                    </div>
                       <br>
-                      <hr>
+
                       </div>
 
                     <!--Tuesday Bootcamp -->
-                    <div class="col-md-4" ng-if="bootcamp.tuesday.on">
+                    <div class="col-md-6 set-height" ng-if="bootcamp.tuesday.on"  >
                         <img src="{{bootcamp.tuesday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                         <h2 class="title">{{bootcamp.tuesday.title}}</h2>
-                        <h5 class="description">{{bootcamp.tuesday.Description}}</h5>
+                        <h3 class="description">{{bootcamp.tuesday.date}} at <br> {{bootcamp.tuesday.time1}}</h2>
+                        <h5 class="description">{{bootcamp.tuesday.Description | characters:100}}</h5>
+                        <button type="submit" class="btn btn-raised " layout-align="space-around center" > Learn More </button>
+
                         <br>
-                        <hr>
+
                         </div>
 
                   <!--Wednesday Bootcamp -->
-                  <div class="col-md-4" ng-if="bootcamp.wednesday.on">
+                  <div class="col-md-6 set-height" ng-if="bootcamp.wednesday.on">
                       <img src="{{bootcamp.wednesday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                       <h2 class="title">{{bootcamp.wednesday.title}}</h2>
-                      <h5 class="description">{{bootcamp.wednesday.Description}}</h5>
+                      <h3 class="description">{{bootcamp.wednesday.date}} at <br> {{bootcamp.wednesday.time1}}</h2>
+                      <h5 class="description">{{bootcamp.wednesday.Description | characters:100}}</h5>
+                      <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
+
                       <br>
-                      <hr>
+
                       </div>
 
-                      <div class="col-md-4" ng-if="bootcamp.thursday.on">
+                      <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
                           <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                           <h2 class="title">{{bootcamp.thursday.title}}</h2>
-                          <h5 class="description">{{bootcamp.thursday.Description}}</h5>
+                          <h3 class="description">{{bootcamp.thursday.date}} at <br> {{bootcamp.thursday.time1}}</h2>
+                          <h5 class="description">{{bootcamp.thursday.Description | characters:100}}</h5>
+                          <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
+
                           <br>
-                          <hr>
+
                           </div>
 
                     </div>
-
+                  </div>
               </div>

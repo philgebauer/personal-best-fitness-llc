@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute', 'firebase']);
+var app = angular.module('app', ['ngRoute', 'firebase', 'truncate']);
 
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
