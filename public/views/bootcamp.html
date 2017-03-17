@@ -59,18 +59,58 @@
 
                       </div>
 
+                <!-- Thursday Bootcamp -->
+                <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
+                    <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                    <h2 class="title">{{bootcamp.thursday.title}}</h2>
+                    <h3 class="description">{{bootcamp.thursday.date}} at <br> {{bootcamp.thursday.time1}}</h2>
+                    <h5 class="description">{{bootcamp.thursday.Description | characters:100}}</h5>
+                    <h5 class="description">{{bootcamp.thursday.location}}</h5>
+                    <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
+
+                    <br>
+
+                    </div>
+
+
+                          <!-- Friday Bootcamp -->
+                  <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
+                      <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                      <h2 class="title">{{bootcamp.friday.title}}</h2>
+                      <h3 class="description">{{bootcamp.friday.date}} at <br> {{bootcamp.friday.time1}}</h2>
+                      <h5 class="description">{{bootcamp.friday.Description | characters:100}}</h5>
+                      <h5 class="description">{{bootcamp.friday.location}}</h5>
+                      <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
+
+                      <br>
+
+                      </div>
+
+                    <!-- Saturday Bootcamp -->
+                    <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
+                        <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                        <h2 class="title">{{bootcamp.friday.title}}</h2>
+                        <h3 class="description">{{bootcamp.friday.date}} at <br> {{bootcamp.friday.time1}}</h2>
+                        <h5 class="description">{{bootcamp.friday.Description | characters:100}}</h5>
+                        <h5 class="description">{{bootcamp.friday.location}}</h5>
+                        <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
+
+                        <br>
+
+                        </div>
+
+                      <!-- Sunday Bootcamp -->
                       <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
                           <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                          <h2 class="title">{{bootcamp.thursday.title}}</h2>
-                          <h3 class="description">{{bootcamp.thursday.date}} at <br> {{bootcamp.thursday.time1}}</h2>
-                          <h5 class="description">{{bootcamp.thursday.Description | characters:100}}</h5>
-                          <h5 class="description">{{bootcamp.thursday.location}}</h5>
+                          <h2 class="title">{{bootcamp.sunday.title}}</h2>
+                          <h3 class="description">{{bootcamp.sunday.date}} at <br> {{bootcamp.sunday.time1}}</h2>
+                          <h5 class="description">{{bootcamp.sunday.Description | characters:100}}</h5>
+                          <h5 class="description">{{bootcamp.sunday.location}}</h5>
                           <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
 
                           <br>
 
                           </div>
-
                     </div>
                   </div>
               </div>
