@@ -68,6 +68,12 @@
           "time1": "8:15 AM",
           "location" : "The gym",
           "Description": "Sunday's bootcamp description goes here"
-     }
+     },
+        "pics": {
+         "1": "Saturday's Title",
+         "2": "lkjlkj",
+         "3": "November 7, 1867"
+
+   }
   }
 }

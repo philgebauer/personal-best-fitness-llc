@@ -26,6 +26,8 @@ app.controller('BootcampController', function($firebaseObject) {
   let sunday = rootRef.child('sunday');
   this.sunday = $firebaseObject(sunday);
 
+  
+
 
 
 });
