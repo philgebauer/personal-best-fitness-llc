@@ -1,32 +1,30 @@
-
-
 <div class="wrapper">
     <div class="header header-filter" style="background-image: url('https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_clem-onojeghuo-143620.jpg?alt=media&token=562ce296-c68f-417c-a96d-9071844a6ff7'); height: 700px;">
         <div class="container">
             <div class="row">
-      <div class="col-md-6">
-        <h1 class="title">Time To Sweat</h1>
-        <h4>Be happy. Be healthy. Let's work together to <br> achieve your personal best.</h4>
-                  <br />
-                  <a href="#bootcamp#learnMore" class="btn btn-danger btn-raised btn-lg">
-          <i class="fa fa-play"></i> Learn more
-        </a>
-      </div>
+                <div class="col-md-6">
+                    <h1 class="title">Time To Sweat</h1>
+                    <h4>Be happy. Be healthy. Let's work together to <br> achieve your personal best.</h4>
+                    <br />
+                    <a href="#bootcamp#learnMore" class="btn btn-danger btn-raised btn-lg">
+                        <i class="fa fa-play"></i> Learn more
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 
-<div id='learnMore' class="main main-raised">
-  <div class="container">
-      <div class="section text-center section-landing">
-              <div class="row">
-                <!-- <div style="position: absolute; height: 500px;"> -->
-                  <!--Monday Bootcamp -->
-                  <div class="col-md-6 set-height" ng-if="bootcamp.monday.on" >
-                      <img src="{{bootcamp.monday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                      <h2 class="title">{{bootcamp.monday.title | characters:50}}</h2>
-                      <h3 class="description">{{bootcamp.monday.date}} at <br> {{bootcamp.monday.time1}}</h2>
-
+    <div id='learnMore' class="main main-raised">
+        <div class="container">
+            <div class="section text-center section-landing">
+                <div class="row">
+                    <!-- <div style="position: absolute; height: 500px;"> -->
+                    <!--Monday Bootcamp -->
+                    <div class="col-md-6 set-height" ng-if="bootcamp.monday.on">
+                        <img src="{{bootcamp.monday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                        <h2 class="title">{{bootcamp.monday.title | characters:50}}</h2>
+                        <h3 class="description">{{bootcamp.monday.date}} at <br> {{bootcamp.monday.time1}}</h2>
+                        <h5 class="description">{{bootcamp.monday.location}}</h5>
                       <h5 class="description">{{bootcamp.monday.Description | characters:100}}</h5>
                       <div class='text-center'>
                       <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#myModal" layout-align="space-around center" > Learn More </button>
@@ -40,6 +38,8 @@
                         <img src="{{bootcamp.tuesday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                         <h2 class="title">{{bootcamp.tuesday.title}}</h2>
                         <h3 class="description">{{bootcamp.tuesday.date}} at <br> {{bootcamp.tuesday.time1}}</h2>
+                          <h5 class="description">{{bootcamp.tuesday.location}}</h5>
+
                         <h5 class="description">{{bootcamp.tuesday.Description | characters:100}}</h5>
                         <button type="submit" data-toggle="modal" data-target="#myModal" class="btn btn-raised " layout-align="space-around center" > Learn More </button>
 
@@ -52,6 +52,8 @@
                       <img src="{{bootcamp.wednesday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                       <h2 class="title">{{bootcamp.wednesday.title}}</h2>
                       <h3 class="description">{{bootcamp.wednesday.date}} at <br> {{bootcamp.wednesday.time1}}</h2>
+                        <h5 class="description">{{bootcamp.wednesday.location}}</h5>
+
                       <h5 class="description">{{bootcamp.wednesday.Description | characters:100}}</h5>
                       <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
 
@@ -64,8 +66,8 @@
                     <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                     <h2 class="title">{{bootcamp.thursday.title}}</h2>
                     <h3 class="description">{{bootcamp.thursday.date}} at <br> {{bootcamp.thursday.time1}}</h2>
+                      <h5 class="description">{{bootcamp.thursday.location}}</h5>
                     <h5 class="description">{{bootcamp.thursday.Description | characters:100}}</h5>
-                    <h5 class="description">{{bootcamp.thursday.location}}</h5>
                     <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
 
                     <br>
@@ -74,12 +76,12 @@
 
 
                           <!-- Friday Bootcamp -->
-                  <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
-                      <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                  <div class="col-md-6 set-height" ng-if="bootcamp.friday.on">
+                      <img src="{{bootcamp.friday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                       <h2 class="title">{{bootcamp.friday.title}}</h2>
                       <h3 class="description">{{bootcamp.friday.date}} at <br> {{bootcamp.friday.time1}}</h2>
+                        <h5 class="description">{{bootcamp.friday.location}}</h5>
                       <h5 class="description">{{bootcamp.friday.Description | characters:100}}</h5>
-                      <h5 class="description">{{bootcamp.friday.location}}</h5>
                       <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
 
                       <br>
@@ -87,12 +89,13 @@
                       </div>
 
                     <!-- Saturday Bootcamp -->
-                    <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
-                        <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                        <h2 class="title">{{bootcamp.friday.title}}</h2>
-                        <h3 class="description">{{bootcamp.friday.date}} at <br> {{bootcamp.friday.time1}}</h2>
-                        <h5 class="description">{{bootcamp.friday.Description | characters:100}}</h5>
-                        <h5 class="description">{{bootcamp.friday.location}}</h5>
+                    <div class="col-md-6 set-height" ng-if="bootcamp.saturday.on">
+                        <img src="{{bootcamp.saturday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                        <h2 class="title">{{bootcamp.saturday.title}}</h2>
+                        <h5 class="description">{{bootcamp.saturday.location}}</h5>
+
+                        <h3 class="description">{{bootcamp.saturday.date}} at <br> {{bootcamp.saturday.time1}}</h2>
+                        <h5 class="description">{{bootcamp.saturday.Description | characters:100}}</h5>
                         <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
 
                         <br>
@@ -100,39 +103,49 @@
                         </div>
 
                       <!-- Sunday Bootcamp -->
-                      <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
-                          <img src="{{bootcamp.thursday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                      <div class="col-md-6 set-height" ng-if="bootcamp.sunday.on">
+                          <img src="{{bootcamp.sunday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
                           <h2 class="title">{{bootcamp.sunday.title}}</h2>
                           <h3 class="description">{{bootcamp.sunday.date}} at <br> {{bootcamp.sunday.time1}}</h2>
+                            <h5 class="description">{{bootcamp.sunday.location}}</h5>
                           <h5 class="description">{{bootcamp.sunday.Description | characters:100}}</h5>
-                          <h5 class="description">{{bootcamp.sunday.location}}</h5>
+
                           <button type="submit" class="btn btn-raised" layout-align="space-around center" > Learn More </button>
 
                           <br>
 
                           </div>
-
-
-                          <!-- Modal -->
-                          <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                  ...
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
+                          <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+	                      Launch demo modal
+	                    </button>
 
 
                     </div>
                   </div>
+              </div>
+
+</div>
+</div>
+
+
+              <!-- Sart Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              	<div class="modal-dialog">
+              		<div class="modal-content">
+              			<div class="modal-header">
+              				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              					<i class="material-icons">clear</i>
+              				</button>
+              				<h4 class="modal-title">Modal title</h4>
+              			</div>
+              			<div class="modal-body">
+              				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+              				</p>
+              			</div>
+              			<div class="modal-footer">
+              				<button type="button" class="btn btn-default btn-simple">Nice Button</button>
+              				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+              			</div>
+              		</div>
+              	</div>
               </div>
