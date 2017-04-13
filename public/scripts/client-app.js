@@ -24,6 +24,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'AboutmeController',
       controllerAs: 'about'
     })
+    .when('/thanks', {
+      templateUrl: '../public/views/thanks.html',
+      controller: 'ThanksController',
+      controllerAs: 'thanks'
+    })
     .when('/admin', {
       templateUrl: '../public/views/admin.html',
       controller: 'AdminController',
