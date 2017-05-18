@@ -17,6 +17,20 @@
 /* ANIMATION */
 /* SHADOWS */
 /* Shadows (from mdl http://www.getmdl.io/) */
+
+/*.navbar-header .navbar-brand img {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}*/
+
+.navbar-header {
+  height: 100px;
+}
+
+
+
 body {
   background-color: #CCCCCC;
 }
