@@ -1,3 +1,10 @@
+.rotateimg90{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 
 
 .tim-row{
@@ -254,7 +261,7 @@
         top: 170px;
         margin-top: 0;
         font-size: 60px;
-        width: 270px;
+        width: 90px;
     }
 }
 

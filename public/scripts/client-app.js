@@ -39,6 +39,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'BootcampController',
       controllerAs: 'bootcamp'
     })
+    .when('/bootcampPics', {
+      templateUrl: '../public/views/bootcampPics.html',
+      controller: 'BootcamppicsController',
+      controllerAs: 'bootcamppics'
+    })
     .otherwise({
       redirectTo: '/homepage'
     });//End route
