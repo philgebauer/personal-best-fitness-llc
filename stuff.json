@@ -1,79 +1,94 @@
 {
-  "angular": {
-     "monday": {
-        "title": "Monday's Title",
-        "on": true,
-        "date": "November 7, 1867",
-        "length": "Monday's Title",
-        "time1": "8:15 AM",
-        "location" : "The gym",
-        "Description": "Monday's bootcamp description goes here"
-
-     },
-     "tuesday": {
-        "title": "Tuesday's Title",
-        "on": true,
-        "date": "November 7, 1867",
-        "length": "Tuesday's Title",
-        "time1": "8:15 AM",
-        "location" : "The gym",
-        "Description": "Tuesday's bootcamp description goes here"
-     },
-
-       "wednesday": {
-          "title": "Wednesday's Title",
-          "on": true,
-          "date": "November 7, 1867",
-          "length": "TWednesday's Title",
-          "time1": "8:15 AM",
-          "location" : "The gym",
-          "Description": "Wednesdays's bootcamp description goes here"
-     },
-
-       "thursday": {
-          "title": "Thursday's Title",
-          "on": true,
-          "date": "November 7, 1867",
-          "length": "Thursdays's Title",
-          "time1": "8:15 AM",
-          "location" : "The gym",
-          "Description": "Thursday's bootcamp description goes here"
-     },
-
-       "friday": {
-          "title": "Friday's Title",
-          "on": true,
-          "date": "November 7, 1867",
-          "length": "Fridays's Title",
-          "time1": "8:15 AM",
-          "location" : "The gym",
-          "Description": "Friday's bootcamp description goes here"
-     },
-
-       "saturday": {
-          "title": "Saturday's Title",
-          "on": true,
-          "date": "November 7, 1867",
-          "length": "Saturday's Title",
-          "time1": "8:15 AM",
-          "location" : "The gym",
-          "Description": "Saturdays's bootcamp description goes here"
-     },
-
-       "sunday": {
-          "title": "Sunday's Title",
-          "on": true,
-          "date": "November 7, 1867",
-          "length": "Sunday's Title",
-          "time1": "8:15 AM",
-          "location" : "The gym",
-          "Description": "Sunday's bootcamp description goes here"
-     },
-        "pics": {
-         "1": "Saturday's Title",
-         "2": "lkjlkj",
-         "3": "November 7, 1867"
-
-   }
+  "angular" : {
+    "five" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "Every Friday Morning",
+      "length" : "Fridays's Title",
+      "location" : "Flex Appeal (1946 St. Claire Ave, St. Paul)",
+      "on" : true,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_1scott-webb-22420.jpg?alt=media&token=39999dd6-d6c9-482f-8c33-0ece3a07b030",
+      "time1" : "7:00 - 7:45 AM (Summer Hours)",
+      "title" : "Bootcamp"
+    },
+    "one" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "Every Monday Morning",
+      "length" : "Monday's Title",
+      "location" : "Flex Appeal (1946 St. Claire Ave, St. Paul)",
+      "on" : true,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_img_6522.jpg?alt=media&token=d2f44594-6245-4fe8-893a-739545112151",
+      "time1" : "7:00 - 7:45 AM",
+      "title" : "Bootcamp"
+    },
+    "six" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "Every  Saturday Morning",
+      "length" : "Saturday's Title",
+      "location" : "Outside at Walsh Park in St. Paul (Montreal Ave just east of Hamline Ave S)",
+      "on" : true,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_1scott-webb-22420.jpg?alt=media&token=39999dd6-d6c9-482f-8c33-0ece3a07b030",
+      "time1" : "7:30 - 8:15 AM",
+      "title" : "Bootcamp"
+    },
+    "seven" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "November 7, 1867",
+      "length" : "Sunday's Title",
+      "location" : "The gym",
+      "on" : false,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_john-towner-188594.jpg?alt=media&token=1ad8182a-c9e1-4b76-93eb-7539856d4140",
+      "time1" : "8:15 AM",
+      "title" : "Sunday's Title"
+    },
+    "four" : {
+      "Description" : "We will work on team building, strength training, conditioning and being Girl Strong.",
+      "date" : "Every  Thursday (Summer)",
+      "length" : "Thursdays's Title",
+      "location" : "Flex Appeal",
+      "on" : true,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_img_6522.jpg?alt=media&token=d2f44594-6245-4fe8-893a-739545112151",
+      "time1" : "8:30 - 9:15 AM",
+      "title" : "Girl Strong"
+    },
+    "two" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "November 9, 1867",
+      "length" : "Tuesday's Title",
+      "location" : "The gym",
+      "on" : false,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_1bruno-nascimento-149663.jpg?alt=media&token=cf95866a-50f3-4aca-8fd4-c5efad890c9c",
+      "time1" : "8:15 AM",
+      "title" : "Tuesday's Bootcamp"
+    },
+    "three" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "November 7, 2017",
+      "length" : "TWednesday's Title",
+      "location" : "The gym",
+      "on" : false,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_1dominik-martin-100802.jpg?alt=media&token=2b7abdf5-d951-465f-966e-3b18eee2dfd6",
+      "time1" : "8:15 AM",
+      "title" : "Wednesday's Training Title"
+    },
+    "GirlStrongOne" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "November 7, 2017",
+      "length" : "TWednesday's Title",
+      "location" : "The gym",
+      "on" : false,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_1dominik-martin-100802.jpg?alt=media&token=2b7abdf5-d951-465f-966e-3b18eee2dfd6",
+      "time1" : "8:15 AM",
+      "title" : "Wednesday's Training Title"
+    },
+    "GirlStrongTwo" : {
+      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "date" : "November 7, 2017",
+      "length" : "TWednesday's Title",
+      "location" : "The gym",
+      "on" : false,
+      "pic" : "https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_1dominik-martin-100802.jpg?alt=media&token=2b7abdf5-d951-465f-966e-3b18eee2dfd6",
+      "time1" : "8:15 AM",
+      "title" : "Wednesday's Training Title"
+    }
   }
 }

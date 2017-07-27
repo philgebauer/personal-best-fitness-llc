@@ -4,29 +4,35 @@ app.controller('BootcampController', function($firebaseObject) {
 
   let rootRef = firebase.database().ref().child('angular');
 
-  let monday = rootRef.child('monday');
-  this.monday = $firebaseObject(monday);
-  console.log('monday ',  this.monday);
+  let one = rootRef.child('one');
+  this.one = $firebaseObject(one);
+  console.log('one ',  this.one);
 
-  let tuesday = rootRef.child('tuesday');
-  this.tuesday = $firebaseObject(tuesday);
+  let two = rootRef.child('two');
+  this.two = $firebaseObject(two);
 
-  let wednesday = rootRef.child('wednesday');
-  this.wednesday = $firebaseObject(wednesday);
+  let three = rootRef.child('three');
+  this.three = $firebaseObject(three);
 
-  let thursday = rootRef.child('thursday');
-  this.thursday = $firebaseObject(thursday);
+  let four = rootRef.child('four');
+  this.four = $firebaseObject(four);
 
-  let friday = rootRef.child('friday');
-  this.friday = $firebaseObject(friday);
+  let five = rootRef.child('five');
+  this.five = $firebaseObject(five);
 
-  let saturday = rootRef.child('saturday');
-  this.saturday = $firebaseObject(saturday);
+  let six = rootRef.child('six');
+  this.six = $firebaseObject(six);
 
-  let sunday = rootRef.child('sunday');
-  this.sunday = $firebaseObject(sunday);
+  let seven = rootRef.child('seven');
+  this.seven = $firebaseObject(seven);
 
-  
+  let GirlStrongOne = rootRef.child('GirlStrongOne');
+  this.GirlStrongOne  = $firebaseObject(GirlStrongOne );
+
+  let GirlStrongTwo  = rootRef.child('GirlStrongTwo');
+  this.GirlStrongTow  = $firebaseObject(GirlStrongTwo);
+
+
 
 
 

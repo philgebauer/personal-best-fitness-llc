@@ -20,12 +20,12 @@
                 <div class="row">
                     <!-- <div style="position: absolute; height: 500px;"> -->
                     <!--Monday Bootcamp -->
-                    <div class="col-md-6 set-height" ng-if="bootcamp.monday.on">
+                    <div class="col-md-6 set-height" ng-if="bootcamp.one.on">
                         <img ng-src="https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_img_8116.jpg?alt=media&token=c17834be-c8ca-47bb-b7eb-9ff01ac49518" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                        <h2 class="title">{{bootcamp.monday.title | characters:50}}</h2>
-                        <h3 class="description">{{bootcamp.monday.date}} at <br> {{bootcamp.monday.time1}}</h2>
-                        <h5 class="description">Where: {{bootcamp.monday.location}}</h5>
-                      <h5 class="description">{{bootcamp.monday.Description | characters:100}}</h5>
+                        <h2 class="title">{{bootcamp.one.title | characters:50}}</h2>
+                        <h3 class="description">{{bootcamp.one.date}} at <br> {{bootcamp.one.time1}}</h2>
+                        <h5 class="description">Where: {{bootcamp.one.location}}</h5>
+                      <h5 class="description">{{bootcamp.one.Description | characters:100}}</h5>
                       <!-- <div class='text-center'> -->
                       <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#mondayModal" layout-align="space-around center" > Learn More </button>
 
@@ -35,13 +35,13 @@
                       <!-- </div> -->
 
                     <!--Tuesday Bootcamp -->
-                    <div class="col-md-6 set-height" ng-if="bootcamp.tuesday.on"  >
+                    <div class="col-md-6 set-height" ng-if="bootcamp.two.on"  >
                         <img ng-src="https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_img_8116.jpg?alt=media&token=c17834be-c8ca-47bb-b7eb-9ff01ac49518" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                        <h2 class="title">{{bootcamp.tuesday.title}}</h2>
-                        <h3 class="description">{{bootcamp.tuesday.date}} at <br> {{bootcamp.tuesday.time1}}</h2>
-                          <h5 class="description">Where: {{bootcamp.tuesday.location}}</h5>
+                        <h2 class="title">{{bootcamp.two.title}}</h2>
+                        <h3 class="description">{{bootcamp.two.date}} at <br> {{bootcamp.two.time1}}</h2>
+                          <h5 class="description">Where: {{bootcamp.two.location}}</h5>
 
-                        <h5 class="description">{{bootcamp.tuesday.Description | characters:100}}</h5>
+                        <h5 class="description">{{bootcamp.two.Description | characters:100}}</h5>
                         <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#tuesdayModal" layout-align="space-around center" > Learn More </button>
 
                         <br>
@@ -49,13 +49,13 @@
                         </div>
 
                   <!--Wednesday Bootcamp -->
-                  <div class="col-md-6 set-height" ng-if="bootcamp.wednesday.on">
-                      <img ng-src="{{bootcamp.wednesday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                      <h2 class="title">{{bootcamp.wednesday.title}}</h2>
-                      <h3 class="description">{{bootcamp.wednesday.date}} at <br> {{bootcamp.wednesday.time1}}</h2>
-                        <h5 class="description">Where: {{bootcamp.wednesday.location}}</h5>
+                  <div class="col-md-6 set-height" ng-if="bootcamp.two.on">
+                      <img ng-src="{{bootcamp.three.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                      <h2 class="title">{{bootcamp.three.title}}</h2>
+                      <h3 class="description">{{bootcamp.three.date}} at <br> {{bootcamp.two.time1}}</h2>
+                        <h5 class="description">Where: {{bootcamp.three.location}}</h5>
 
-                      <h5 class="description">{{bootcamp.wednesday.Description | characters:100}}</h5>
+                      <h5 class="description">{{bootcamp.three.Description | characters:100}}</h5>
                       <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#wednesdayModal" layout-align="space-around center" > Learn More </button>
 
                       <br>
@@ -63,12 +63,12 @@
                       </div>
 
                 <!-- Thursday Bootcamp -->
-                <div class="col-md-6 set-height" ng-if="bootcamp.thursday.on">
+                <div class="col-md-6 set-height" ng-if="bootcamp.three.on">
                     <img ng-src="https://firebasestorage.googleapis.com/v0/b/personalbestfitness-76fa4.appspot.com/o/rsz_img_8116.jpg?alt=media&token=c17834be-c8ca-47bb-b7eb-9ff01ac49518" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                    <h2 class="title">{{bootcamp.thursday.title}}</h2>
-                    <h3 class="description">{{bootcamp.thursday.date}} at <br> {{bootcamp.thursday.time1}}</h2>
-                      <h5 class="description">Where: {{bootcamp.thursday.location}}</h5>
-                    <h5 class="description">{{bootcamp.thursday.Description | characters:100}}</h5>
+                    <h2 class="title">{{bootcamp.four.title}}</h2>
+                    <h3 class="description">{{bootcamp.four.date}} at <br> {{bootcamp.three.time1}}</h2>
+                      <h5 class="description">Where: {{bootcamp.four.location}}</h5>
+                    <h5 class="description">{{bootcamp.four.Description | characters:100}}</h5>
                     <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#thursdayModal" layout-align="space-around center" > Learn More </button>
 
                     <br>
@@ -77,12 +77,12 @@
 
 
                           <!-- Friday Bootcamp -->
-                  <div class="col-md-6 set-height" ng-if="bootcamp.friday.on">
+                  <div class="col-md-6 set-height" ng-if="bootcamp.five.on">
                       <img src="../public/assets/img/bootcamp-pbf.jpg" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                      <h2 class="title">{{bootcamp.friday.title}}</h2>
-                      <h3 class="description">{{bootcamp.friday.date}} at <br> {{bootcamp.friday.time1}}</h2>
-                        <h5 class="description">Where: {{bootcamp.friday.location}}</h5>
-                      <h5 class="description">{{bootcamp.friday.Description | characters:100}}</h5>
+                      <h2 class="title">{{bootcamp.five.title}}</h2>
+                      <h3 class="description">{{bootcamp.five.date}} at <br> {{bootcamp.five.time1}}</h2>
+                        <h5 class="description">Where: {{bootcamp.five.location}}</h5>
+                      <h5 class="description">{{bootcamp.five.Description | characters:100}}</h5>
                       <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#fridayModal" layout-align="space-around center" > Learn More </button>
 
                       <br>
@@ -90,13 +90,13 @@
                       </div>
 
                     <!-- Saturday Bootcamp -->
-                    <div class="col-md-6 set-height" ng-if="bootcamp.saturday.on">
+                    <div class="col-md-6 set-height" ng-if="bootcamp.six.on">
                         <img src="../public/assets/img/stairs-pbf.jpg" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                        <h2 class="title">{{bootcamp.saturday.title}}</h2>
-                        <h3 class="description">{{bootcamp.saturday.date}} at <br> {{bootcamp.saturday.time1}}</h2>
-                        <h5 class="description">Where: {{bootcamp.saturday.location}}</h5>
+                        <h2 class="title">{{bootcamp.six.title}}</h2>
+                        <h3 class="description">{{bootcamp.six.date}} at <br> {{bootcamp.six.time1}}</h2>
+                        <h5 class="description">Where: {{bootcamp.six.location}}</h5>
 
-                        <h5 class="description">{{bootcamp.saturday.Description | characters:100}}</h5>
+                        <h5 class="description">{{bootcamp.six.Description | characters:100}}</h5>
                         <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#saturdayModal" layout-align="space-around center" > Learn More </button>
 
                         <br>
@@ -104,12 +104,12 @@
                         </div>
 
                       <!-- Sunday Bootcamp -->
-                      <div class="col-md-6 set-height" ng-if="bootcamp.sunday.on">
-                          <img ng-src="{{bootcamp.sunday.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
-                          <h2 class="title">{{bootcamp.sunday.title}}</h2>
-                          <h3 class="description">{{bootcamp.sunday.date}} at <br> {{bootcamp.sunday.time1}}</h2>
-                            <h5 class="description">{{bootcamp.sunday.location}}</h5>
-                          <h5 class="description">{{bootcamp.sunday.Description | characters:100}}</h5>
+                      <div class="col-md-6 set-height" ng-if="bootcamp.seven.on">
+                          <img ng-src="{{bootcamp.seven.pic}}" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                          <h2 class="title">{{bootcamp.seven.title}}</h2>
+                          <h3 class="description">{{bootcamp.seven.date}} at <br> {{bootcamp.seven.time1}}</h2>
+                            <h5 class="description">{{bootcamp.seven.location}}</h5>
+                          <h5 class="description">{{bootcamp.seven.Description | characters:100}}</h5>
 
                           <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#sundayModal" layout-align="space-around center" > Learn More </button>
 
@@ -117,7 +117,31 @@
 
                           </div>
 
+                      <!-- GIRL STRONG STUFF - MOVE TO GS PAGE -->
 
+                      <div class="col-md-6 set-height" ng-if="bootcamp.GirlStrongOne.on">
+                          <img src="../public/assets/img/bootcamp-pbf.jpg" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                          <h2 class="title">{{bootcamp.GirlStrongOne.title}}</h2>
+                          <h3 class="description">{{bootcamp.GirlStrongOne.date}} at <br> {{bootcamp.GirlStrongOne.time1}}</h2>
+                            <h5 class="description">Where: {{bootcamp.GirlStrongOne.location}}</h5>
+                          <h5 class="description">{{bootcamp.GirlStrongOne.Description | characters:100}}</h5>
+                          <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#fridayModal" layout-align="space-around center" > Learn More </button>
+
+                          <br>
+
+                          </div>
+
+                          <div class="col-md-6 set-height" ng-if="bootcamp.GirlStrongOne.on">
+                              <img src="../public/assets/img/bootcamp-pbf.jpg" alt="Rounded Image" class="img-rounded img-raised img-responsive">
+                              <h2 class="title">{{bootcamp.GirlStrongTwo.title}}</h2>
+                              <h3 class="description">{{bootcamp.GirlStrongTwo.date}} at <br> {{bootcamp.GirlStrongTwo.time1}}</h2>
+                                <h5 class="description">Where: {{bootcamp.GirlStrongTwo.location}}</h5>
+                              <h5 class="description">{{bootcamp.GirlStrongTwo.Description | characters:100}}</h5>
+                              <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#fridayModal" layout-align="space-around center" > Learn More </button>
+
+                              <br>
+
+                              </div>
 
                     </div>
                   </div>
@@ -134,10 +158,10 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.monday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.one.title}}</h4>
 			</div>
 			<div class="modal-body">
-				<p> {{bootcamp.monday.Description}}
+				<p> {{bootcamp.one.Description}}
 				</p>
 			</div>
 			<div class="modal-footer">
@@ -154,10 +178,10 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.tuesday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.two.title}}</h4>
 			</div>
 			<div class="modal-body">
-        <p> {{bootcamp.tuesday.Description}}</p>
+        <p> {{bootcamp.two.Description}}</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
@@ -174,10 +198,10 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.wednesday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.three.title}}</h4>
 			</div>
 			<div class="modal-body">
-        <p> {{bootcamp.wednesday.Description}}				</p>
+        <p> {{bootcamp.three.Description}}				</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
@@ -194,10 +218,10 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.thursday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.four.title}}</h4>
 			</div>
 			<div class="modal-body">
-				  <p> {{bootcamp.thursday.Description}}</p>
+				  <p> {{bootcamp.four.Description}}</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
@@ -214,10 +238,10 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.friday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.five.title}}</h4>
 			</div>
 			<div class="modal-body">
-				    <p> {{bootcamp.friday.Description}}</p>
+				    <p> {{bootcamp.five.Description}}</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
@@ -234,10 +258,10 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.saturday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.six.title}}</h4>
 			</div>
 			<div class="modal-body">
-          <p> {{bootcamp.saturday.Description}}	</p>
+          <p> {{bootcamp.six.Description}}	</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
@@ -254,10 +278,50 @@
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 					<i class="material-icons">clear</i>
 				</button>
-				<h4 class="modal-title">{{bootcamp.sunday.title}}</h4>
+				<h4 class="modal-title">{{bootcamp.seven.title}}</h4>
 			</div>
 			<div class="modal-body">
-				  <p> {{bootcamp.sunday.Description}}</p>
+				  <p> {{bootcamp.seven.Description}}</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- GIRL STRONG MODAL - MOVE LATER -->
+
+<div class="modal fade" id="GirlStrong1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<i class="material-icons">clear</i>
+				</button>
+				<h4 class="modal-title">{{bootcamp.GirlStrongOne.title}}</h4>
+			</div>
+			<div class="modal-body">
+				  <p> {{bootcamp.GirlStrongOne.Description}}</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="GirlStrong1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<i class="material-icons">clear</i>
+				</button>
+				<h4 class="modal-title">{{bootcamp.GirlStrongTwo.title}}</h4>
+			</div>
+			<div class="modal-body">
+				  <p> {{bootcamp.GirlStrongTwo.Description}}</p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>

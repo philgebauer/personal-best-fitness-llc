@@ -4,37 +4,43 @@ app.controller('AdminController', function($firebaseObject){
 
   const rootRef = firebase.database().ref().child('angular');
 
-  const monday = rootRef.child('monday');
-  this.monday = $firebaseObject(monday);
-  console.log('monday ',  this.monday);
+  const one = rootRef.child('one');
+  this.one = $firebaseObject(one);
 
-  const tuesday = rootRef.child('tuesday');
-  this.tuesday = $firebaseObject(tuesday);
+  const two = rootRef.child('two');
+  this.two = $firebaseObject(two);
 
-  const wednesday = rootRef.child('wednesday');
-  this.wednesday = $firebaseObject(wednesday);
+  const three = rootRef.child('three');
+  this.three = $firebaseObject(three);
 
-  const thursday = rootRef.child('thursday');
-  this.thursday = $firebaseObject(thursday);
+  const four = rootRef.child('four');
+  this.four = $firebaseObject(four);
 
-  const friday = rootRef.child('friday');
-  this.friday = $firebaseObject(friday);
+  const five = rootRef.child('five');
+  this.five = $firebaseObject(five);
 
-  const saturday = rootRef.child('saturday');
-  this.saturday = $firebaseObject(saturday);
+  const six = rootRef.child('six');
+  this.six = $firebaseObject(six);
 
-  const sunday = rootRef.child('sunday');
-  this.sunday = $firebaseObject(sunday);
+  const seven = rootRef.child('seven');
+  this.seven = $firebaseObject(seven);
 
+  const GirlStrongOne = rootRef.child('GirlStrongOne');
+  this.GirlStrongOne = $firebaseObject(GirlStrongOne);
+
+  const GirlStrongTwo = rootRef.child('GirlStrongTwo');
+  this.GirlStrongTwo = $firebaseObject(GirlStrongTwo);
 
   this.saveProfile = function() {
-    this.monday.$save();
-    this.tuesday.$save();
-    this.wednesday.$save();
-    this.thursday.$save();
-    this.friday.$save();
-    this.saturday.$save();
-    this.sunday.$save()
+    this.one.$save();
+    this.two.$save();
+    this.three.$save();
+    this.four.$save();
+    this.five.$save();
+    this.six.$save();
+    this.seven.$save();
+    this.GirlStrongOne.$save();
+    this.GirlStrongTwo.$save();
 
   };
 
