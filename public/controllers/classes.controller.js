@@ -26,6 +26,11 @@ app.controller('ClassesController', function($firebaseObject) {
   let sunday = rootRef.child('sunday');
   this.sunday = $firebaseObject(sunday);
 
+  let GirlStrongOne = rootRef.child('GirlStrongOne');
+  this.GirlStrongOne = $firebaseObject(GirlStrongOne);
+
+  let GirlStrongTwo = rootRef.child('GirlStrongTwo');
+  this.GirlStrongTwo  = $firebaseObject(GirlStrongTwo);
 
 
 });

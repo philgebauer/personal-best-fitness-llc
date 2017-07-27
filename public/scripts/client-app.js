@@ -44,6 +44,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'BootcamppicsController',
       controllerAs: 'bootcamppics'
     })
+    .when('/girlStrong', {
+      templateUrl: '../public/views/girlStrong.html',
+      controller: 'GirlStrongController',
+      controllerAs: 'GirlStrong'
+    })
     .otherwise({
       redirectTo: '/homepage'
     });//End route

@@ -30,7 +30,7 @@ app.controller('BootcampController', function($firebaseObject) {
   this.GirlStrongOne  = $firebaseObject(GirlStrongOne );
 
   let GirlStrongTwo  = rootRef.child('GirlStrongTwo');
-  this.GirlStrongTow  = $firebaseObject(GirlStrongTwo);
+  this.GirlStrongTwo  = $firebaseObject(GirlStrongTwo);
 
 
 
