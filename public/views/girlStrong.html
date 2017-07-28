@@ -32,7 +32,8 @@
                     </div>
                   </div>
             </div>
-
+            <br> <br>
+            <br> <br>
 
             <div class="container">
               <div class="row">
@@ -42,7 +43,7 @@
                     <h3 class="description">{{GirlStrong.GirlStrongOne.date}} at <br> {{GirlStrong.GirlStrongOne.time1}}</h2>
                       <h5 class="description">Where: {{GirlStrong.GirlStrongOne.location}}</h5>
                     <h5 class="description">{{GirlStrong.GirlStrongOne.Description | characters:100}}</h5>
-                    <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#fridayModal" layout-align="space-around center" > Learn More </button>
+                    <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#GirlStrongOneModal" layout-align="space-around center" > Learn More </button>
 
                     <br>
 
@@ -54,10 +55,10 @@
                         <h3 class="description">{{GirlStrong.GirlStrongTwo.date}} at <br> {{GirlStrong.GirlStrongTwo.time1}}</h2>
                           <h5 class="description">Where: {{GirlStrong.GirlStrongTwo.location}}</h5>
                         <h5 class="description">{{GirlStrong.GirlStrongTwo.Description | characters:100}}</h5>
-                        <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#fridayModal" layout-align="space-around center" > Learn More </button>
+                        <button type="submit" class="btn btn-raised " data-toggle="modal" data-target="#GirlStrongTwoModal" layout-align="space-around center" > Learn More </button>
 
                         <br>
-                        
+
                         </div>
                     </div>
                 </div>
@@ -118,7 +119,49 @@
 
         </div>
 
-
     </div>
 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="GirlStrongOneModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<i class="material-icons">clear</i>
+				</button>
+				<h4 class="modal-title">{{GirlStrong.GirlStrongOne.title}}</h4>
+			</div>
+			<div class="modal-body">
+				  <p> {{GirlStrong.GirlStrongOne.Description}}</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="GirlStrongTwoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<i class="material-icons">clear</i>
+				</button>
+				<h4 class="modal-title">{{GirlStrong.GirlStrongTwo.title}}</h4>
+			</div>
+			<div class="modal-body">
+				  <p> {{GirlStrong.GirlStrongTwo.Description}}</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
 </div>
