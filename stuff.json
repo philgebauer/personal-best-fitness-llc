@@ -1,7 +1,7 @@
 {
   "angular" : {
     "five" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "Boot camp is a 45 minute class which boosts your metabolism so your body will burn more calories during the day. We do cardio, HIIT and strength training. ",
       "date" : "Every Friday Morning",
       "length" : "Fridays's Title",
       "location" : "Flex Appeal (1946 St. Claire Ave, St. Paul)",
@@ -11,7 +11,7 @@
       "title" : "Bootcamp"
     },
     "one" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "Boot camp is a 45 minute class which boosts your metabolism so your body will burn more calories during the day. We do cardio, HIIT and strength training. ",
       "date" : "Every Monday Morning",
       "length" : "Monday's Title",
       "location" : "Flex Appeal (1946 St. Claire Ave, St. Paul)",
@@ -21,7 +21,7 @@
       "title" : "Bootcamp"
     },
     "six" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "Boot camp is a 45 minute class which boosts your metabolism so your body will burn more calories during the day. We do cardio, HIIT and strength training. ",
       "date" : "Every  Saturday Morning",
       "length" : "Saturday's Title",
       "location" : "Outside at Walsh Park in St. Paul (Montreal Ave just east of Hamline Ave S)",
@@ -31,7 +31,7 @@
       "title" : "Bootcamp"
     },
     "seven" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "Boot camp is a 45 minute class which boosts your metabolism so your body will burn more calories during the day. We do cardio, HIIT and strength training. ",
       "date" : "November 7, 1867",
       "length" : "Sunday's Title",
       "location" : "The gym",
@@ -51,7 +51,7 @@
       "title" : "Girl Strong"
     },
     "two" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "Boot camp is a 45 minute class which boosts your metabolism so your body will burn more calories during the day. We do cardio, HIIT and strength training. ",
       "date" : "November 9, 1867",
       "length" : "Tuesday's Title",
       "location" : "The gym",
@@ -61,7 +61,7 @@
       "title" : "Tuesday's Bootcamp"
     },
     "three" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "Boot camp is a 45 minute class which boosts your metabolism so your body will burn more calories during the day. We do cardio, HIIT and strength training. ",
       "date" : "November 7, 2017",
       "length" : "TWednesday's Title",
       "location" : "The gym",
@@ -71,7 +71,7 @@
       "title" : "Wednesday's Training Title"
     },
     "GirlStrongOne" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "We will work on team building, strength training, conditioning and being Girl Strong.",
       "date" : "November 7, 2017",
       "length" : "TWednesday's Title",
       "location" : "The gym",
@@ -81,7 +81,7 @@
       "title" : "Wednesday's Training Title"
     },
     "GirlStrongTwo" : {
-      "Description" : "HIIT Training with a touch of functional strength-training. Dress to sweat and bring your yoga mat if you'd like!",
+      "Description" : "We will work on team building, strength training, conditioning and being Girl Strong.",
       "date" : "November 7, 2017",
       "length" : "TWednesday's Title",
       "location" : "The gym",
