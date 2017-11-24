@@ -3,7 +3,7 @@ app.factory('AdminFactory', ['$firebase', '$firebaseObject',  function ($firebas
 
   var self = this;
 
-
+// tester
 
 
 
